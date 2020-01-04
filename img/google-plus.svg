@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="68" viewBox="0 0 50 68">
+  <defs>
+    <filter id="google-plus-a" width="114.6%" height="153%" x="-7.3%" y="-26.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="-35" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="#222" filter="url(#google-plus-a)" opacity=".7" transform="translate(-1220 -318)">
+    <path d="M17.5,16.2949219 L17.5,18.9101562 L21.1777,18.9101562 C20.6408,20.4322227 19.1952,21.5253906 17.5,21.5253906 C15.3498,21.5253906 13.6,19.7653379 13.6,17.6025391 C13.6,15.4397402 15.3498,13.6796875 17.5,13.6796875 C18.4321,13.6796875 19.3291,14.0157451 20.0259,14.6264023 L21.7341,12.6545156 C20.5641,11.6293437 19.0613,11.0644531 17.5,11.0644531 C13.9159,11.0644531 11,13.9974385 11,17.6025391 C11,21.2076396 13.9159,24.140625 17.5,24.140625 C21.0841,24.140625 24,21.2076396 24,17.6025391 L24,16.2949219 L17.5,16.2949219 Z" transform="translate(1228 361)"/>
+  </g>
+</svg>
